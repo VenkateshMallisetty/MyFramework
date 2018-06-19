@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SIC Test Automation Suite" duration-ms="1607" started-at="2017-02-28T19:45:43Z" finished-at="2017-02-28T19:45:45Z">
+    <groups>
+    </groups>
+    <test name="SIC Test Automation" duration-ms="1607" started-at="2017-02-28T19:45:43Z" finished-at="2017-02-28T19:45:45Z">
+      <class name="TestScripts.SmokeTest.TC_ID_01">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestScripts.SmokeTest.TC_ID_01@3327bd23]" name="beforeSuite" is-config="true" duration-ms="147" started-at="2017-02-28T11:45:43Z" finished-at="2017-02-28T11:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:TestScripts.SmokeTest.TC_ID_01@3327bd23]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-02-28T11:45:43Z" finished-at="2017-02-28T11:45:43Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: C:\Users\MOHAN G B\workspace\GmailLogin\.\Drivers\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\MOHAN G B\workspace\GmailLogin\.\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.Gmail.accelerators.TestEngine.getBrowser(TestEngine.java:1147)
+	at TestScripts.SmokeTest.TC_ID_01.beforeClass(TC_ID_01.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="step1()[pri:1, instance:TestScripts.SmokeTest.TC_ID_01@3327bd23]" name="step1" duration-ms="5" started-at="2017-02-28T11:45:45Z" finished-at="2017-02-28T11:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestScripts.SmokeTest.TC_ID_01@3327bd23]" name="tearDown" is-config="true" duration-ms="18" started-at="2017-02-28T11:45:45Z" finished-at="2017-02-28T11:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="step2()[pri:2, instance:TestScripts.SmokeTest.TC_ID_01@3327bd23]" name="step2" duration-ms="6" started-at="2017-02-28T11:45:45Z" finished-at="2017-02-28T11:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestScripts.SmokeTest.TC_ID_01@3327bd23]" name="tearDown" is-config="true" duration-ms="17" started-at="2017-02-28T11:45:45Z" finished-at="2017-02-28T11:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="step3()[pri:3, instance:TestScripts.SmokeTest.TC_ID_01@3327bd23]" name="step3" duration-ms="3" started-at="2017-02-28T11:45:45Z" finished-at="2017-02-28T11:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestScripts.SmokeTest.TC_ID_01@3327bd23]" name="tearDown" is-config="true" duration-ms="14" started-at="2017-02-28T11:45:45Z" finished-at="2017-02-28T11:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:TestScripts.SmokeTest.TC_ID_01@3327bd23]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-02-28T11:45:45Z" finished-at="2017-02-28T11:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="FAIL" signature="tearDownAfterSuite()[pri:0, instance:TestScripts.SmokeTest.TC_ID_01@3327bd23]" name="tearDownAfterSuite" is-config="true" duration-ms="0" started-at="2017-02-28T11:45:45Z" finished-at="2017-02-28T11:45:45Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.Gmail.accelerators.TestEngine.copyFileUsingStream(TestEngine.java:449)
+	at com.Gmail.accelerators.TestEngine.tearDownAfterSuite(TestEngine.java:381)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterSuite -->
+      </class> <!-- TestScripts.SmokeTest.TC_ID_01 -->
+    </test> <!-- SIC Test Automation -->
+  </suite> <!-- SIC Test Automation Suite -->
+</testng-results>
